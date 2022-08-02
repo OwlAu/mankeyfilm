@@ -1,13 +1,64 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Home */
+.home {
+  position: relative;
+}
+
+.homeDescription_text {
+  color: white;
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 100px;
+  left: 50px;
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+}
+
+.followDashline {
+  background-color: white;
+  width: 100px;
+  height: 10px;
+  margin-left: 10px;
+}
+
+.dashline {
+  background-color: white;
+  width: 200px;
+  height: 10px;
+}
+
+.jobTitle {
+  text-align: left;
+}
+
+.name {
+  text-align: left;
+}
+
+.portfolioBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  width: 200px;
+  height: 60px;
 }
