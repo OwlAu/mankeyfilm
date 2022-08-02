@@ -9,9 +9,9 @@ export const Home = () => {
         <div className="dashline"></div>
         <div className="jobTitle">Videographer and Director</div>
         <div className="name">Mankey Sun Liew</div>
-        <div className="portfolioBtn" id="home">
-          My Portfolio
-        </div>
+        <btn className="portfolioBtn">
+          <a href="#portfolio">My Portfolio</a>
+        </btn>
       </div>
       <img src="img/test.jpg" alt="" style={{ width: "100%" }} />
     </div>

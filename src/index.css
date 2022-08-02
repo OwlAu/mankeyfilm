@@ -62,3 +62,7 @@ code {
   width: 200px;
   height: 60px;
 }
+
+a {
+  text-decoration: none;
+}
