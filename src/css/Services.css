@@ -1,6 +1,8 @@
 /* Services */
 .services {
   text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .weddingPrice {
@@ -8,4 +10,13 @@
   border-width: 2px;
   width: 200px;
   height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weddingDescription {
+  height: auto;
+  width: 500px;
+  margin-bottom: 30px;
 }

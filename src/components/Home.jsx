@@ -2,13 +2,13 @@ import "../css/Home.css";
 
 export const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="homeDescription_text">
         <div className="follow">
           Follow
-          <div className="shortDashline"></div>
+          <div className="dashline-1"></div>
         </div>
-        <div className="dashline"></div>
+        <div className="dashline-2"></div>
         <div className="jobTitle">Videographer and Director</div>
         <div className="name">Mankey Sun Liew</div>
         <btn className="portfolioBtn">

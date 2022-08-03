@@ -1,3 +1,5 @@
+import "../css/Navigation.css";
+
 export const Navigation = () => {
   return (
     <nav className="navbar navbar-expand-lg">
@@ -39,7 +41,11 @@ export const Navigation = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="#services"
+              >
                 SERVICES & PRICES
               </a>
             </li>

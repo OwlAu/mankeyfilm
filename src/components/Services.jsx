@@ -2,9 +2,9 @@ import "../css/Services.css";
 
 export const Services = () => {
   return (
-    <div className="services">
-      <div className="shortDashline-contact"></div>
-      <div className="servicesTitle">Services and Prices</div>
+    <div className="services" id="services">
+      <div className="dashline-2"></div>
+      <div className="font-60-bold">Services and Prices</div>
       <div class="row">
         <div class="col">
           <img
@@ -14,7 +14,7 @@ export const Services = () => {
           />
         </div>
         <div class="col">
-          <div className="wedding">Wedding Photography</div>
+          <div className="font-20">Wedding Photography</div>
           <div className="weddingDescription">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Consequuntur porro quos et eos quisquam officiis eligendi
@@ -26,7 +26,7 @@ export const Services = () => {
       </div>
       <div class="row">
         <div class="col">
-          <div className="wedding">Wedding Photography</div>
+          <div className="font-20">Wedding Photography</div>
           <div className="weddingDescription">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Consequuntur porro quos et eos quisquam officiis eligendi
