@@ -1,0 +1,53 @@
+/* Home */
+.home {
+  position: relative;
+}
+
+.homeDescription_text {
+  color: white;
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 100px;
+  left: 50px;
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+}
+
+.shortDashline {
+  background-color: white;
+  width: 100px;
+  height: 5px;
+  margin-left: 10px;
+}
+
+.dashline {
+  background-color: white;
+  width: 200px;
+  height: 10px;
+}
+
+.jobTitle {
+  text-align: left;
+}
+
+.name {
+  text-align: left;
+}
+
+.portfolioBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  width: 200px;
+  height: 60px;
+}
+
+a {
+  text-decoration: none;
+}

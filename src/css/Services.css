@@ -1,0 +1,11 @@
+/* Services */
+.services {
+  text-align: left;
+}
+
+.weddingPrice {
+  border-style: solid;
+  border-width: 2px;
+  width: 200px;
+  height: 60px;
+}

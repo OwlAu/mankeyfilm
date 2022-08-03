@@ -1,0 +1,37 @@
+/* Contact Page */
+.contactLeft {
+  position: relative;
+}
+
+.contactRight {
+  text-align: left;
+}
+
+.contactImageText {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  text-align: left;
+}
+
+.shortDashline-contact {
+  background-color: white;
+  width: 100px;
+  height: 5px;
+  margin-left: 10px;
+}
+
+.sayHellow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  width: 200px;
+  height: 60px;
+}
+
+.contactInfo-title {
+  display: flex;
+  flex-direction: row;
+}

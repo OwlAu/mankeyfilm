@@ -1,3 +1,5 @@
+import "../css/Contact.css";
+
 export const Contact = () => {
   return (
     <div class="contact">
@@ -22,8 +24,10 @@ export const Contact = () => {
         <div class="col-sm contactRight">
           <div className="shortDashline-contact"></div>
           <div className="contactInfoContainer">
-            <div className="contactInfo">Contact Info</div>
-            <div className="01">01</div>
+            <div className="contactInfo-title">
+              <div className="contactInfo">Contact Info</div>
+              <div className="01">01</div>
+            </div>
             <div className="email">Mail: 123@gmail.com</div>
             <div className="phone">Phone: 12344567</div>
             <div className="sayHellow">Say Hello</div>
