@@ -28,9 +28,11 @@ export const GetInTouch = () => {
           ></textarea>
         </div>
       </form>
-      <div className="backToTop">
-        <div className="backToTop-text">Back to top</div>
-      </div>
+      <a href="#logo">
+        <div className="backToTop">
+          <div className="backToTop-text">Back to top</div>
+        </div>
+      </a>
     </div>
   );
 };

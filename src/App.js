@@ -10,7 +10,9 @@ import { GetInTouch } from "./components/GetInTouch";
 function App() {
   return (
     <div className="App">
-      <div className="logo">LOGO PUT HERE</div>
+      <div className="logo" id="logo">
+        LOGO PUT HERE
+      </div>
       <Navigation />
       <Home />
       <Portfolio />
