@@ -4,7 +4,7 @@ export const Home = () => {
       <div className="homeDescription_text">
         <div className="follow">
           Follow
-          <div className="followDashline"></div>
+          <div className="shortDashline"></div>
         </div>
         <div className="dashline"></div>
         <div className="jobTitle">Videographer and Director</div>
