@@ -1,24 +1,18 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Navigation } from "./components/Navigation";
-import { Home } from "./components/Home";
+import { Landing } from "./components/Landing";
 import { Services } from "./components/Services";
-import { Portfolio } from "./components/Portfolio";
+import { AboutUs } from "./components/AboutUs";
 import { Contact } from "./components/Contact";
-import { GetInTouch } from "./components/GetInTouch";
+import { Portfolio } from "./components/Portfolio";
 
 function App() {
   return (
     <div className="App">
-      <div className="logo" id="logo">
-        LOGO PUT HERE
-      </div>
-      <Navigation />
-      <Home />
-      <Portfolio />
-      <Contact />
+      <Landing />
       <Services />
-      <GetInTouch />
+      <Portfolio />
+      <AboutUs />
+      <Contact />
     </div>
   );
 }
